@@ -4383,6 +4383,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4578,12 +4768,6 @@
 		(uuid "60b068bb-0902-45dd-9ccd-b50f6c2d5ab1")
 	)
 	(junction
-		(at 113.03 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "646d0482-fb93-4fbc-9e2b-27036863c2d3")
-	)
-	(junction
 		(at 184.15 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4722,22 +4906,10 @@
 		(uuid "e5b36d58-cf2c-4d93-983b-0266c247e914")
 	)
 	(junction
-		(at 140.97 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eaca390c-cdc2-4d68-8a92-6605eceb4ff5")
-	)
-	(junction
 		(at 130.81 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edb31719-ad33-4ca7-b563-4ed09bc2e757")
-	)
-	(junction
-		(at 113.03 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef1815aa-39fd-4f5d-bac5-174196044245")
 	)
 	(junction
 		(at 86.36 41.91)
@@ -4750,6 +4922,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe802396-e538-46d3-aafb-8c7eb57767bd")
+	)
+	(no_connect
+		(at 85.09 73.66)
+		(uuid "2f873b33-695d-4239-8efe-1c52805b6288")
 	)
 	(no_connect
 		(at 43.18 82.55)
@@ -4838,16 +5014,6 @@
 			(type default)
 		)
 		(uuid "16e042f2-48cd-4d02-b192-a107b7710c18")
-	)
-	(wire
-		(pts
-			(xy 106.68 107.95) (xy 113.03 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18794abc-ed9a-4eaa-b056-d858c6075877")
 	)
 	(wire
 		(pts
@@ -4961,7 +5127,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 125.73 88.9)
+			(xy 102.87 88.9) (xy 125.73 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5078,26 +5244,6 @@
 			(type default)
 		)
 		(uuid "432649f6-6d6a-4840-ba17-4454e7fb0c75")
-	)
-	(wire
-		(pts
-			(xy 113.03 107.95) (xy 120.65 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "436a8d52-f7b9-4e9e-83a9-fd863dbd23a9")
-	)
-	(wire
-		(pts
-			(xy 113.03 88.9) (xy 113.03 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43edda07-0498-4636-80e8-8a8ea368577e")
 	)
 	(wire
 		(pts
@@ -5411,16 +5557,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 88.9) (xy 113.03 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b2230b1-7240-46dc-a4d1-d946f1d9005f")
-	)
-	(wire
-		(pts
 			(xy 130.81 102.87) (xy 130.81 101.6)
 		)
 		(stroke
@@ -5451,7 +5587,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 36.83) (xy 157.48 36.83)
+			(xy 134.62 36.83) (xy 157.48 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5648,16 +5784,6 @@
 			(type default)
 		)
 		(uuid "9b5a8028-fa3e-4361-9aa8-46c4d7268de9")
-	)
-	(wire
-		(pts
-			(xy 140.97 40.64) (xy 140.97 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cbe3bce-4ca3-4f87-ae0e-8c25d91fde61")
 	)
 	(wire
 		(pts
@@ -6161,16 +6287,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 36.83) (xy 140.97 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c4834f-a9b0-43c2-850a-09e0b658e244")
-	)
-	(wire
-		(pts
 			(xy 184.15 54.61) (xy 184.15 45.72)
 		)
 		(stroke
@@ -6248,6 +6364,16 @@
 			(justify right bottom)
 		)
 		(uuid "12cedf7e-a6c0-485e-afdc-868586e22327")
+	)
+	(label "LED_STAT1"
+		(at 120.65 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15289af5-dea0-48af-8a1d-b55f2b434212")
 	)
 	(label "ENC_EL_A"
 		(at 207.01 137.16 0)
@@ -6349,6 +6475,16 @@
 		)
 		(uuid "3d68f4ad-2fce-40ab-b30c-0b1efc792661")
 	)
+	(label "PWR_FLAG"
+		(at 60.96 88.9 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d8ddfd6-7cb6-4b74-833f-6f504d93b7d0")
+	)
 	(label "USB_D-"
 		(at 63.5 127 180)
 		(effects
@@ -6428,6 +6564,16 @@
 			(justify right bottom)
 		)
 		(uuid "691a7003-0b0b-47f9-8443-32d5ee3cd51b")
+	)
+	(label "VSYS"
+		(at 85.09 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a1fb728-a022-4733-bf99-d867d43c3f46")
 	)
 	(label "5V"
 		(at 21.59 115.57 0)
@@ -6539,15 +6685,25 @@
 		)
 		(uuid "97213416-45b9-4504-8663-26e78375e1d5")
 	)
-	(label "VBAT"
-		(at 52.07 88.9 0)
+	(label "VSYS"
+		(at 52.07 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b444cc3-ec3e-455c-b30f-58d33dafa162")
+	)
+	(label "VSYS"
+		(at 140.97 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9b444cc3-ec3e-455c-b30f-58d33dafa162")
+		(uuid "a74a9307-4144-4ca9-87f3-49f5cc1cad4b")
 	)
 	(label "IO14_EXT"
 		(at 257.81 111.76 180)
@@ -6558,6 +6714,16 @@
 			(justify right bottom)
 		)
 		(uuid "ac7d2ab9-7637-4d5e-b0a9-8672cff7c495")
+	)
+	(label "LED_STAT2"
+		(at 106.68 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae378654-758c-4815-b725-0060716bcc98")
 	)
 	(label "5V"
 		(at 123.19 63.5 0)
@@ -6578,6 +6744,16 @@
 			(justify left bottom)
 		)
 		(uuid "b779be85-308d-4b6e-aada-065de7a86e5e")
+	)
+	(label "VBAT"
+		(at 74.93 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb154fa4-32f8-4603-a684-71d8543f8115")
 	)
 	(label "ENC_EL_SW"
 		(at 245.11 151.13 0)
@@ -6618,6 +6794,16 @@
 			(justify left bottom)
 		)
 		(uuid "c48f68cd-1a71-43cc-9f48-4333cbdce142")
+	)
+	(label "LED_STAT2"
+		(at 222.25 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5f2bb55-ad9b-4b3f-adfb-c655f978eb3c")
 	)
 	(label "ENC_AZ_A"
 		(at 132.08 137.16 0)
@@ -6738,6 +6924,16 @@
 			(justify left bottom)
 		)
 		(uuid "efe1fd6e-85ba-4ffd-8453-3caf9ce88c3c")
+	)
+	(label "LED_STAT1"
+		(at 222.25 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f5adaf75-811d-443b-8e54-3584f3063358")
 	)
 	(label "USB_D-"
 		(at 46.99 68.58 0)
@@ -7760,6 +7956,89 @@
 			(project "Bluesat gs remote controller"
 				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 80.01 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c941607-e1d5-42dc-b6b4-8ac40dd4be0a")
+		(property "Reference" "SW5"
+			(at 80.01 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 80.01 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 80.01 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bf3399b-2885-4467-b738-1d5093279904")
+		)
+		(pin "3"
+			(uuid "26d002b0-08e5-42f4-a62a-24609dbc0c8f")
+		)
+		(pin "2"
+			(uuid "9ab3b407-8231-4223-bffb-aa1e755f5b99")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
