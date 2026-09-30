@@ -5050,6 +5050,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -5281,6 +5559,55 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 106.68 111.76)
+		(stroke
+			(width 0.0076)
+			(type dash)
+			(color 0 37 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0840ff22-2aee-4528-b085-1571ef2435be")
+	)
+	(rectangle
+		(start 106.68 12.7)
+		(end 200.66 111.76)
+		(stroke
+			(width 0.0076)
+			(type dash)
+			(color 0 37 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0fe55d49-b3ce-48f3-a167-c6fa99b32c3a")
+	)
+	(text "D3 (TVS): place close to J1"
+		(exclude_from_sim no)
+		(at 83.312 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4fcba4e9-84d3-45e4-841c-94f2fb67230e")
+	)
+	(text "1. USB Input & Protection"
+		(exclude_from_sim no)
+		(at 39.624 19.558 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(italic yes)
+				(color 25 0 255 1)
+			)
+		)
+		(uuid "bc5cfd67-c338-48aa-b25e-997970dd22ea")
+	)
 	(junction
 		(at 154.94 210.82)
 		(diameter 0)
@@ -5294,7 +5621,7 @@
 		(uuid "06002309-9b74-4959-b749-5d4b170eff24")
 	)
 	(junction
-		(at 194.31 44.45)
+		(at 180.34 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1580c99f-8f3e-4136-b12b-1c97cfa41d72")
@@ -5324,10 +5651,22 @@
 		(uuid "2f0cf9cd-1cdb-4f5a-a13e-833e8319ec9b")
 	)
 	(junction
-		(at 78.74 48.26)
+		(at 92.71 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3bac0cc9-5974-4855-aecb-4722a70c786f")
+		(uuid "333f528d-0a33-49d8-86ec-a7784a971444")
+	)
+	(junction
+		(at 66.04 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ddf081c-d114-4146-b1f5-81ca505b412e")
+	)
+	(junction
+		(at 309.88 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e1c6e88-edf2-4473-81f0-73aabb589078")
 	)
 	(junction
 		(at 345.44 118.11)
@@ -5354,6 +5693,18 @@
 		(uuid "76191309-3326-4de2-af69-80487092749b")
 	)
 	(junction
+		(at 78.74 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d25d22b-4323-4d98-b6a7-b2d7b368c680")
+	)
+	(junction
+		(at 119.38 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "817c1562-b637-4231-b0af-4d2f1927b7ad")
+	)
+	(junction
 		(at 149.86 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5364,6 +5715,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a39cd877-b5b4-4381-a9e3-c4e3896c091f")
+	)
+	(junction
+		(at 377.19 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aadb466b-ab44-4fcd-8c5d-4e3d0dbc6c04")
 	)
 	(junction
 		(at 320.04 121.92)
@@ -5450,6 +5807,12 @@
 		(uuid "f1a18988-8764-4ca3-98b0-8bccb60afc1e")
 	)
 	(junction
+		(at 351.79 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3958188-4afe-4f00-9c19-bed3dbdf704b")
+	)
+	(junction
 		(at 359.41 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5480,7 +5843,7 @@
 		(uuid "f8ab2610-23b6-4cba-85a7-12d30e0c9fc6")
 	)
 	(junction
-		(at 346.71 101.6)
+		(at 351.79 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe802396-e538-46d3-aafb-8c7eb57767bd")
@@ -5593,7 +5956,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 101.6) (xy 346.71 101.6)
+			(xy 346.71 102.87) (xy 351.79 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5703,7 +6066,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 93.98) (xy 341.63 93.98)
+			(xy 356.87 95.25) (xy 351.79 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5843,7 +6206,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 97.79) (xy 53.34 97.79)
+			(xy 76.835 97.155) (xy 76.835 89.535)
 		)
 		(stroke
 			(width 0)
@@ -5883,7 +6246,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 44.45) (xy 186.69 48.26)
+			(xy 172.72 31.75) (xy 172.72 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6043,6 +6406,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 167.64) (xy 91.44 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6e0087-fab6-413b-83e5-3e0b022b5b99")
+	)
+	(wire
+		(pts
 			(xy 115.57 210.82) (xy 115.57 212.09)
 		)
 		(stroke
@@ -6083,7 +6456,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 101.6) (xy 351.79 101.6)
+			(xy 351.79 102.87) (xy 356.87 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6153,7 +6526,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 66.04) (xy 203.2 59.69)
+			(xy 189.23 53.34) (xy 189.23 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6293,7 +6666,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 167.64) (xy 91.44 167.64)
+			(xy 96.52 167.64) (xy 92.71 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6363,7 +6736,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 97.79) (xy 38.1 97.79)
+			(xy 76.835 70.485) (xy 76.835 74.295)
 		)
 		(stroke
 			(width 0)
@@ -6413,7 +6786,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 55.88) (xy 186.69 58.42)
+			(xy 172.72 43.18) (xy 172.72 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6473,7 +6846,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 48.26) (xy 78.74 48.26)
+			(xy 82.55 48.26) (xy 78.74 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6563,7 +6936,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 52.07) (xy 203.2 44.45)
+			(xy 189.23 39.37) (xy 189.23 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6733,7 +7106,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 30.48) (xy 60.96 34.29)
+			(xy 73.66 30.48) (xy 73.66 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6803,6 +7176,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 95.25) (xy 346.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45b0783-8f3f-4a86-8c9b-4d9dfcd2f9bd")
+	)
+	(wire
+		(pts
 			(xy 367.03 68.58) (xy 367.03 62.23)
 		)
 		(stroke
@@ -6830,6 +7213,16 @@
 			(type default)
 		)
 		(uuid "d55d9088-620d-4568-b4a2-5223777aa737")
+	)
+	(wire
+		(pts
+			(xy 66.04 34.29) (xy 60.96 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a6922f-b2bb-4721-a5ba-b248204489e5")
 	)
 	(wire
 		(pts
@@ -6890,6 +7283,16 @@
 			(type default)
 		)
 		(uuid "e36b3e79-c487-4ff3-af5a-00248b957b34")
+	)
+	(wire
+		(pts
+			(xy 73.66 34.29) (xy 66.04 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5757976-8b4e-4882-9309-9256a990b699")
 	)
 	(wire
 		(pts
@@ -7003,7 +7406,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 44.45) (xy 203.2 44.45)
+			(xy 172.72 31.75) (xy 189.23 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7111,26 +7514,6 @@
 		)
 		(uuid "242da1eb-022e-49b3-b196-cb3adeb120a6")
 	)
-	(label "+3V3"
-		(at 332.74 216.0491 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "244c0233-77d8-4d7b-974f-6de236490358")
-	)
-	(label "5V"
-		(at 60.96 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "245dc0ab-1075-4dc5-9dc7-f5bae932ebe7")
-	)
 	(label "BTN_2"
 		(at 388.62 140.97 0)
 		(effects
@@ -7142,12 +7525,12 @@
 		(uuid "24ea7300-92a2-4a6b-b181-8a5f3b4e2af2")
 	)
 	(label "USB_D+"
-		(at 78.74 58.42 180)
+		(at 92.71 62.23 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "281cdb7b-5214-4624-9902-fe76cdb29d59")
 	)
@@ -7222,7 +7605,7 @@
 		(uuid "3d68f4ad-2fce-40ab-b30c-0b1efc792661")
 	)
 	(label "USB_D-"
-		(at 78.74 63.5 180)
+		(at 87.63 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7261,26 +7644,6 @@
 		)
 		(uuid "52f7130c-fcfe-489f-89d1-c7db55b17d97")
 	)
-	(label "+3V3"
-		(at 373.38 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "55838932-043a-41a1-aa28-722cdbda951c")
-	)
-	(label "+3V3"
-		(at 358.14 198.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "55b259c1-c446-4e0b-858e-1ec72df85972")
-	)
 	(label "BTN_3"
 		(at 388.62 143.51 0)
 		(effects
@@ -7300,16 +7663,6 @@
 			(justify left bottom)
 		)
 		(uuid "5c0f042c-a628-485d-80bc-3ec7ae8167af")
-	)
-	(label "+3V3"
-		(at 78.74 219.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5cb8a111-309d-43fc-adc1-d8df234c283c")
 	)
 	(label "VBAT"
 		(at 151.13 45.72 0)
@@ -7331,16 +7684,6 @@
 		)
 		(uuid "5f21beec-9e9c-409a-b838-ba8278b052fe")
 	)
-	(label "+3V3"
-		(at 45.72 218.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5fd85ac0-4ab5-40d2-a352-360ba0f95e34")
-	)
 	(label "VBAT"
 		(at 265.43 40.64 0)
 		(effects
@@ -7350,16 +7693,6 @@
 			(justify left bottom)
 		)
 		(uuid "641aa2d3-981d-40f5-82b3-f19241eac511")
-	)
-	(label "+3V3"
-		(at 125.73 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64db4b37-1d3e-4d60-bb54-553d83a89c29")
 	)
 	(label "ENC_EL_A"
 		(at 133.35 142.24 0)
@@ -7381,16 +7714,6 @@
 		)
 		(uuid "691a7003-0b0b-47f9-8443-32d5ee3cd51b")
 	)
-	(label "+3V3"
-		(at 38.1 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "692f738e-7a1a-48c0-b2f7-0163aa1f39f3")
-	)
 	(label "VSYS"
 		(at 256.54 74.93 0)
 		(effects
@@ -7400,36 +7723,6 @@
 			(justify left bottom)
 		)
 		(uuid "6a1fb728-a022-4733-bf99-d867d43c3f46")
-	)
-	(label "5V"
-		(at 34.29 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a9a9d13-e39e-4c77-ae6e-d02fd9ca3358")
-	)
-	(label "+3V3"
-		(at 377.19 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b87519a-776f-4ece-9a9f-37439a45c16b")
-	)
-	(label "+3V3"
-		(at 154.94 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c1d17a8-f17a-4947-a216-fa802a5e16b3")
 	)
 	(label "DISP_SDA"
 		(at 388.62 118.11 0)
@@ -7451,58 +7744,8 @@
 		)
 		(uuid "72761e9e-0cc6-454a-a1f0-5c1550a3eaac")
 	)
-	(label "+3V3"
-		(at 125.73 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "73d344e1-b5bf-4f35-bda1-cdb03a79b520")
-	)
-	(label "+3V3"
-		(at 179.07 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "781065b3-b20d-41a6-b617-e51b779b6ae6")
-	)
-	(label "+3V3"
-		(at 38.1 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7ba69c30-052e-497d-96f4-6a63e87cefb2")
-	)
-	(label "+3V3"
-		(at 346.71 93.98 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7bd3e1e8-3e97-40aa-9013-554aa4b91c6b")
-	)
-	(label "5V"
-		(at 140.97 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c625830-fb07-4aa7-9185-a3a33fb604d6")
-	)
 	(label "VBAT_SENSE"
-		(at 186.69 57.15 0)
+		(at 172.72 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7571,16 +7814,6 @@
 		)
 		(uuid "93f175f8-b53d-4727-b39e-e7ec7568826a")
 	)
-	(label "+3V3"
-		(at 374.65 215.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "97213416-45b9-4504-8663-26e78375e1d5")
-	)
 	(label "VBAT"
 		(at 121.92 71.12 0)
 		(effects
@@ -7601,16 +7834,6 @@
 		)
 		(uuid "9b444cc3-ec3e-455c-b30f-58d33dafa162")
 	)
-	(label "+3V3"
-		(at 91.44 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a425cb8c-0776-4021-bf31-63e0c566891c")
-	)
 	(label "FB"
 		(at 359.41 59.69 0)
 		(effects
@@ -7630,36 +7853,6 @@
 			(justify right bottom)
 		)
 		(uuid "ac7d2ab9-7637-4d5e-b0a9-8672cff7c495")
-	)
-	(label "5V"
-		(at 156.21 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4345082-62f1-45ba-b8a3-635462b2d763")
-	)
-	(label "+3V3"
-		(at 331.47 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba98ee5c-02b0-4117-91f9-ecf1f2d41cf7")
-	)
-	(label "5V"
-		(at 255.27 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bad6e87e-e122-451b-999a-d4a1af5c7407")
 	)
 	(label "VPATH"
 		(at 246.38 77.47 180)
@@ -7691,16 +7884,6 @@
 		)
 		(uuid "bf8ca2ec-07f1-4c9e-9058-be8c53bfae2c")
 	)
-	(label "+3V3"
-		(at 181.61 194.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2937fdc-827c-4c46-9526-246e2a60df3a")
-	)
 	(label "BTN_4"
 		(at 388.62 146.05 0)
 		(effects
@@ -7731,18 +7914,8 @@
 		)
 		(uuid "c5f2bb55-ad9b-4b3f-adfb-c655f978eb3c")
 	)
-	(label "5V"
-		(at 119.38 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbbc2ca2-47fb-434c-a9a2-cc2c606067a9")
-	)
 	(label "VBAT"
-		(at 187.96 44.45 0)
+		(at 173.99 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7841,26 +8014,6 @@
 		)
 		(uuid "e831f932-114a-4942-adbf-ea8129350645")
 	)
-	(label "+3V3"
-		(at 115.57 220.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e87f271d-62c5-4f54-a8b1-92a964490100")
-	)
-	(label "+3V3"
-		(at 312.42 212.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec237a4e-fcc6-4dd4-8b05-5d9ec2b9af38")
-	)
 	(label "DISP_SCL"
 		(at 313.69 223.52 0)
 		(effects
@@ -7890,16 +8043,6 @@
 			(justify right bottom)
 		)
 		(uuid "f5adaf75-811d-443b-8e54-3584f3063358")
-	)
-	(label "+3V3"
-		(at 336.55 121.92 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f91ad964-5fd0-47b2-9e77-20268af0a438")
 	)
 	(label "USB_D-"
 		(at 60.96 57.15 0)
@@ -8341,7 +8484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 337.82 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -8511,7 +8654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.0052 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -8753,7 +8896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 217.17 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -8807,85 +8950,6 @@
 			(project "Bluesat gs remote controller"
 				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 60.96 30.48 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a026262-35cd-429e-9f94-117ce4453708")
-		(property "Reference" "#FLG02"
-			(at 59.055 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 57.15 30.4799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 60.96 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e85f8ce-be27-4c2e-8b3d-c44f1cef36a2")
-		)
-		(instances
-			(project "Bluesat gs remote controller"
-				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8964,6 +9028,397 @@
 			(project "Bluesat gs remote controller"
 				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 179.07 163.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dc03431-2877-4ee1-9b84-fbcdc69b7c7c")
+		(property "Reference" "#PWR041"
+			(at 179.07 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 179.07 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 179.07 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "028190d2-2452-4280-8b23-7a3e2c0b3c9b")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 78.74 219.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eae0288-add1-44b4-8bab-fdc0743eb50a")
+		(property "Reference" "#PWR048"
+			(at 78.74 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 78.74 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 78.74 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da8d65e1-9910-4797-ae86-65523a8a3dca")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 377.19 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eae11e3-bf19-4d83-8471-2562b362cedd")
+		(property "Reference" "#PWR040"
+			(at 373.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 381 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 377.19 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d170f15e-78c6-41df-afb1-d3c2763cfb6e")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 309.88 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20e481f6-bc65-47b5-bb27-3214ac78a3c1")
+		(property "Reference" "#PWR052"
+			(at 309.88 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 309.88 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 309.88 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8de650d4-30b8-488c-bb2f-7cffb2884ef8")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 254 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2174c22f-b791-41a0-b642-74d1e5414da0")
+		(property "Reference" "#PWR033"
+			(at 254 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 254 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 254 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34769d62-9b0b-4989-a1fd-d81c080c510c")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9082,7 +9537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
 			(at 379.73 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -9137,6 +9592,84 @@
 			(project "Bluesat gs remote controller"
 				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 119.38 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "229ba93b-3b52-42ad-8a96-e2cfd6e6a8b6")
+		(property "Reference" "#PWR015"
+			(at 119.38 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 119.38 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 119.38 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "606d4bdd-a690-418a-944a-f6873f306aae")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9303,6 +9836,163 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 82.55 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a0c49c6-fb73-4971-af5b-c6db3642a7c6")
+		(property "Reference" "#PWR056"
+			(at 88.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "338aff51-3f87-4f0b-9339-775557cb7c25")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 73.66 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c207116-fc3e-487c-8709-9e7a55c8ebf6")
+		(property "Reference" "#PWR02"
+			(at 73.66 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 73.66 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 73.66 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc9eca6e-9248-4be1-abe5-1aafea7643b9")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 251.46 77.47 0)
 		(unit 1)
@@ -9408,7 +10098,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 317.5 217.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9499,7 +10189,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 326.39 127 0)
 			(hide yes)
 			(show_name no)
@@ -9579,7 +10269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 340.36 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9661,7 +10351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 33.9852 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -10270,6 +10960,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 38.1 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "502c41e7-d2e6-4f3c-94a8-cb771631be37")
+		(property "Reference" "#PWR045"
+			(at 41.91 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 34.29 146.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9614326-e9ba-40e2-a304-56ad0e1c9b06")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Battery_Management:MCP73831-2-OT")
 		(at 140.97 48.26 0)
 		(unit 1)
@@ -10357,6 +11126,84 @@
 			(project "Bluesat gs remote controller"
 				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 351.79 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57f43944-d5b6-4a3e-a18c-461c8861ce66")
+		(property "Reference" "#PWR038"
+			(at 351.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 351.79 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 351.79 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d47543da-0bfc-495a-98c5-8c68d6c02f9a")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10522,8 +11369,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 203.2 55.88 0)
+		(lib_id "power:+3.3V")
+		(at 331.47 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10532,31 +11379,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5f7f2f92-d43a-44fe-98e9-d446c502f391")
-		(property "Reference" "C6"
-			(at 207.01 54.6099 0)
+		(uuid "5f5d162d-79ba-4648-96b9-964e67679bfb")
+		(property "Reference" "#PWR036"
+			(at 331.47 104.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
-			(at 207.01 57.1499 0)
+		(property "Value" "+3.3V"
+			(at 331.47 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 204.1652 59.69 0)
+		(property "Footprint" ""
+			(at 331.47 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10567,7 +11413,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 55.88 0)
+			(at 331.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 331.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd68e256-cd67-4a27-8def-c1fb88f4edc9")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f7f2f92-d43a-44fe-98e9-d446c502f391")
+		(property "Reference" "C6"
+			(at 193.04 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7µF"
+			(at 193.04 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 190.1952 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10578,7 +11503,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 203.2 55.88 0)
+			(at 189.23 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10715,7 +11640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 231.14 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -10808,7 +11733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 137.16 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10858,7 +11783,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 351.79 97.79 0)
+		(at 356.87 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10869,7 +11794,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a340f88-26da-4907-959c-beeab42f3df2")
 		(property "Reference" "C9"
-			(at 355.6 96.5199 0)
+			(at 360.68 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10880,7 +11805,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 355.6 99.0599 0)
+			(at 360.68 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10891,7 +11816,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 352.7552 101.6 0)
+			(at 357.8352 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10902,7 +11827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 97.79 0)
+			(at 356.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10913,7 +11838,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 351.79 97.79 0)
+			(at 356.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11054,7 +11979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 186.69 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -11104,7 +12029,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 194.31 44.45 0)
+		(at 180.34 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11115,7 +12040,7 @@
 		(fields_autoplaced yes)
 		(uuid "714ca913-d50a-4fb1-8076-4043ffc56696")
 		(property "Reference" "TP2"
-			(at 196.85 39.8779 0)
+			(at 182.88 27.1779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11126,7 +12051,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 196.85 42.4179 0)
+			(at 182.88 29.7179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11137,7 +12062,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 199.39 44.45 0)
+			(at 185.42 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11148,7 +12073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 44.45 0)
+			(at 185.42 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11159,7 +12084,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 194.31 44.45 0)
+			(at 180.34 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11176,6 +12101,84 @@
 			(project "Bluesat gs remote controller"
 				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 156.21 72.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73481e4a-1057-4390-825b-9fdc806f2fec")
+		(property "Reference" "#PWR034"
+			(at 156.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 156.21 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 156.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e2aecfd-7b82-46cf-aa2c-3fcaef7b4b60")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11294,7 +12297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 50.8 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -11421,8 +12424,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 41.91 97.79 270)
+		(lib_id "power:+3.3V")
+		(at 125.73 163.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11431,9 +12434,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "78ab726a-54d4-4116-9a75-abbfccd0f174")
-		(property "Reference" "R9"
-			(at 41.91 91.44 90)
+		(uuid "78020c78-7590-4d99-ad57-abdcd231ae64")
+		(property "Reference" "#PWR042"
+			(at 129.54 163.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11442,18 +12446,19 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 41.91 93.98 90)
+		(property "Value" "+3.3V"
+			(at 121.92 163.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 41.91 96.012 90)
+		(property "Footprint" ""
+			(at 125.73 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11464,7 +12469,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 97.79 0)
+			(at 125.73 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 125.73 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1252b1fe-8560-4c63-9d7b-e32f8512c353")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.835 78.105 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78ab726a-54d4-4116-9a75-abbfccd0f174")
+		(property "Reference" "R9"
+			(at 83.185 78.105 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 80.645 78.105 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 78.613 78.105 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.835 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11475,7 +12557,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 41.91 97.79 0)
+			(at 76.835 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11581,8 +12663,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 346.71 101.6 0)
+		(lib_id "power:PWR_FLAG")
+		(at 66.04 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11591,9 +12673,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7f75c75f-b125-4458-8fdf-662d0a46bc04")
-		(property "Reference" "#PWR019"
-			(at 346.71 107.95 0)
+		(uuid "7e77950b-e075-456f-81d9-3fa461f69232")
+		(property "Reference" "#FLG02"
+			(at 66.04 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11603,8 +12685,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 346.71 106.68 0)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11614,7 +12696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 101.6 0)
+			(at 66.04 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11625,7 +12707,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 101.6 0)
+			(at 66.04 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 66.04 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "174dd12d-8f83-47fb-8c04-f4a42d829914")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 351.79 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f75c75f-b125-4458-8fdf-662d0a46bc04")
+		(property "Reference" "#PWR019"
+			(at 351.79 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.79 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11636,7 +12796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 346.71 101.6 0)
+			(at 351.79 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11740,7 +12900,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 341.63 97.79 0)
+		(at 346.71 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11751,7 +12911,7 @@
 		(fields_autoplaced yes)
 		(uuid "818da8f7-4932-4a31-aed1-5027587344b7")
 		(property "Reference" "C8"
-			(at 345.44 96.5199 0)
+			(at 350.52 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11762,7 +12922,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 345.44 99.0599 0)
+			(at 350.52 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11773,7 +12933,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 342.5952 101.6 0)
+			(at 347.6752 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11784,7 +12944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 97.79 0)
+			(at 346.71 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11795,7 +12955,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 341.63 97.79 0)
+			(at 346.71 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11978,7 +13138,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 186.69 62.23 180)
+		(at 172.72 49.53 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11989,7 +13149,7 @@
 		(fields_autoplaced yes)
 		(uuid "85f977d2-1015-4c86-9616-447e97573b6a")
 		(property "Reference" "R3"
-			(at 180.34 62.23 90)
+			(at 166.37 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11999,7 +13159,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 182.88 62.23 90)
+			(at 168.91 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12009,7 +13169,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 188.468 62.23 90)
+			(at 174.498 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12020,7 +13180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 62.23 0)
+			(at 172.72 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12031,7 +13191,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 186.69 62.23 0)
+			(at 172.72 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12057,8 +13217,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 186.69 52.07 180)
+		(lib_id "power:+3.3V")
+		(at 115.57 220.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12067,9 +13227,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "86c3ae8d-2ee5-4363-90df-98e3ae15b680")
-		(property "Reference" "R4"
-			(at 180.34 52.07 90)
+		(uuid "86a5451a-3894-4bbc-8397-8271a26c9b75")
+		(property "Reference" "#PWR049"
+			(at 115.57 217.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12078,8 +13239,8 @@
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 182.88 52.07 90)
+		(property "Value" "+3.3V"
+			(at 115.57 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12088,8 +13249,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 188.468 52.07 90)
+		(property "Footprint" ""
+			(at 115.57 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12100,7 +13261,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 52.07 0)
+			(at 115.57 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 115.57 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adb87d69-b7af-4272-a993-a18b35f5b1ac")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 39.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86c3ae8d-2ee5-4363-90df-98e3ae15b680")
+		(property "Reference" "R4"
+			(at 166.37 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 168.91 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 174.498 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12111,7 +13349,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 186.69 52.07 0)
+			(at 172.72 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12413,7 +13651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 103.8352 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -12547,6 +13785,162 @@
 			(project "Bluesat gs remote controller"
 				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 154.94 219.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "962ef907-ae63-4acb-9a92-873ac914c97b")
+		(property "Reference" "#PWR050"
+			(at 154.94 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 154.94 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 154.94 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee599c4f-0bcf-4e1c-8f39-f99b1064dfd5")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 140.97 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9be8f088-bab6-40af-9304-ce1428f8d880")
+		(property "Reference" "#PWR035"
+			(at 140.97 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 140.97 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 140.97 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab903810-2610-47e3-a61c-2f25b31b9bda")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12953,8 +14347,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 60.96 0)
+		(lib_id "power:+3.3V")
+		(at 125.73 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12963,9 +14357,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a83341b4-1099-413f-9b31-a1a4a229348e")
-		(property "Reference" "#PWR015"
-			(at 88.9 67.31 0)
+		(uuid "a66b112d-0087-4b22-bd90-60276fc324be")
+		(property "Reference" "#PWR043"
+			(at 129.54 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12975,18 +14369,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 88.9 66.04 0)
+		(property "Value" "+3.3V"
+			(at 121.92 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 60.96 0)
+			(at 125.73 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12997,7 +14392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 60.96 0)
+			(at 125.73 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13007,8 +14402,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 60.96 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 125.73 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13019,12 +14414,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a61d68f4-7d09-4ae9-a521-e3eb73ebf8af")
+			(uuid "5f294f72-72e0-41c8-8225-8e08dd63e5eb")
 		)
 		(instances
 			(project "Bluesat gs remote controller"
 				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
-					(reference "#PWR015")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -13043,25 +14438,25 @@
 		(fields_autoplaced yes)
 		(uuid "a88020a9-ac56-445f-a747-e5c8907ec24a")
 		(property "Reference" "R6"
-			(at 153.67 66.0401 0)
+			(at 158.75 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "470Ω"
-			(at 153.67 63.5001 0)
+		(property "Value" "470R"
+			(at 158.75 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -13146,7 +14541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.7348 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -13228,7 +14623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 120.65 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -13438,7 +14833,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 66.04 0)
+		(at 189.23 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13449,7 +14844,7 @@
 		(fields_autoplaced yes)
 		(uuid "adc214ab-b887-4ee8-9543-315c6ab17b22")
 		(property "Reference" "#PWR07"
-			(at 203.2 72.39 0)
+			(at 189.23 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13460,7 +14855,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 71.12 0)
+			(at 189.23 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13470,7 +14865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 66.04 0)
+			(at 189.23 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13481,7 +14876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 66.04 0)
+			(at 189.23 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13492,7 +14887,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 66.04 0)
+			(at 189.23 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13515,8 +14910,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 186.69 66.04 0)
+		(lib_id "power:+3.3V")
+		(at 373.38 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13525,9 +14920,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af1a11cb-0762-484a-a1f8-a1ed09ce86ce")
-		(property "Reference" "#PWR032"
-			(at 186.69 72.39 0)
+		(uuid "aed39cfe-debc-4816-9093-ac3ce056e8da")
+		(property "Reference" "#PWR037"
+			(at 373.38 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13537,8 +14932,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 186.69 71.12 0)
+		(property "Value" "+3.3V"
+			(at 373.38 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13548,7 +14943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 66.04 0)
+			(at 373.38 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13559,7 +14954,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 66.04 0)
+			(at 373.38 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 373.38 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "358bb1ea-fc3c-4ed1-8154-ee7df4c3b41a")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af1a11cb-0762-484a-a1f8-a1ed09ce86ce")
+		(property "Reference" "#PWR032"
+			(at 172.72 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13570,7 +15043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 66.04 0)
+			(at 172.72 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13667,6 +15140,84 @@
 			(project "Bluesat gs remote controller"
 				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 336.55 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0836523-5d3c-4db1-a8e7-bfbdb668e45b")
+		(property "Reference" "#PWR039"
+			(at 340.36 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 332.74 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 336.55 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47b598f9-6c91-49cd-99ca-79de4801b5a6")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14146,7 +15697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 83.82 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -14228,7 +15779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 363.22 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -14316,7 +15867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 149.86 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -14365,6 +15916,240 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 332.74 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2f57d15-fb37-45c3-99e4-91571112b639")
+		(property "Reference" "#PWR053"
+			(at 332.74 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 332.74 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 332.74 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f29457d-e3ee-4df3-a572-f4d0d7ed2353")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 45.72 218.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c32ec0e4-3425-4fb4-a3a7-b3f50e60c9ab")
+		(property "Reference" "#PWR047"
+			(at 45.72 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 45.72 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 45.72 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37c4815e-e531-4626-ab0f-44e540e20baa")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 181.61 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3649878-257a-4217-a0b4-b383646506aa")
+		(property "Reference" "#PWR051"
+			(at 181.61 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 181.61 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 181.61 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f6b2f98-7ac0-411d-867e-65814da92704")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 349.25 68.58 90)
 		(unit 1)
@@ -14386,7 +16171,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "2.2uH"
 			(at 349.25 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14606,8 +16391,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 80.01 48.26 90)
+		(lib_id "power:+5V")
+		(at 76.835 70.485 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14615,10 +16400,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c79df930-00ae-4827-beb8-db6d30c491e0")
-		(property "Reference" "#PWR02"
-			(at 86.36 48.26 0)
+		(uuid "caf6f540-ecc0-448f-abdb-5a163b4809bf")
+		(property "Reference" "#PWR04"
+			(at 76.835 74.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14628,19 +16412,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 83.82 48.2599 90)
+		(property "Value" "+5V"
+			(at 78.994 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 48.26 0)
+			(at 76.835 70.485 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14651,7 +16434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 48.26 0)
+			(at 76.835 70.485 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14661,8 +16444,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 48.26 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 76.835 70.485 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14673,12 +16456,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c4f42d2-18a4-4398-ac67-3e04685e61f4")
+			(uuid "cae8a4e1-b399-4c7d-92fa-9e4762dc0a29")
 		)
 		(instances
 			(project "Bluesat gs remote controller"
 				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -15007,7 +16790,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:RCLAMP0502B")
-		(at 83.82 60.96 180)
+		(at 90.17 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15018,7 +16801,7 @@
 		(fields_autoplaced yes)
 		(uuid "d40ec82d-93e1-49f0-8702-958ff7d4a07a")
 		(property "Reference" "D3"
-			(at 83.7565 52.07 0)
+			(at 99.06 67.2465 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15028,7 +16811,7 @@
 			)
 		)
 		(property "Value" "RCLAMP0502B"
-			(at 83.7565 54.61 0)
+			(at 96.52 67.2465 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15038,7 +16821,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
-			(at 83.82 53.34 0)
+			(at 97.79 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15049,7 +16832,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0502b"
-			(at 82.55 63.5 0)
+			(at 87.63 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15060,7 +16843,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional dual ESD protection diode, SC-75"
-			(at 83.82 60.96 0)
+			(at 90.17 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15598,6 +17381,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 38.1 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e478a02c-dad9-46e0-a518-02cc5ea62799")
+		(property "Reference" "#PWR046"
+			(at 41.91 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 34.29 167.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 38.1 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3501690e-6c0f-4e4e-9f6e-ccf721235d61")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 200.66 180)
 		(unit 1)
@@ -15755,7 +17617,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 49.53 97.79 180)
+		(at 76.835 85.725 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15766,7 +17628,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb366fda-fbef-48c2-b2aa-52ac3b70976e")
 		(property "Reference" "D2"
-			(at 51.1175 90.17 0)
+			(at 84.455 87.3125 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15776,7 +17638,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 51.1175 92.71 0)
+			(at 81.915 87.3125 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15786,7 +17648,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 49.53 97.79 0)
+			(at 76.835 85.725 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15797,7 +17659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 97.79 0)
+			(at 76.835 85.725 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15808,7 +17670,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 49.53 97.79 0)
+			(at 76.835 85.725 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15819,7 +17681,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 97.79 0)
+			(at 76.835 85.725 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16378,26 +18240,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f1f72e7e-52d1-44d8-8ed1-98c03a1d506b")
 		(property "Reference" "R17"
-			(at 303.53 215.9 90)
+			(at 307.34 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 306.07 215.9 90)
+		(property "Value" "4k7"
+			(at 307.34 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -16443,6 +18306,84 @@
 			(project "Bluesat gs remote controller"
 				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 358.14 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2d62546-388a-4a78-9fbb-64089dc4d093")
+		(property "Reference" "#PWR054"
+			(at 358.14 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 358.14 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 358.14 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8136a03-fb30-4641-a9ce-80cf442753dc")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -16528,7 +18469,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 97.79 0)
+		(at 76.835 97.155 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16539,7 +18480,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8a8b0cd-354d-4319-8b07-5cff4b22f6bd")
 		(property "Reference" "#PWR017"
-			(at 60.96 104.14 0)
+			(at 76.835 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16550,17 +18491,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 102.87 0)
+			(at 78.74 98.4249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 97.79 0)
+			(at 76.835 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16571,7 +18513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 97.79 0)
+			(at 76.835 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16582,7 +18524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 97.79 0)
+			(at 76.835 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16763,6 +18705,242 @@
 			(project "Bluesat gs remote controller"
 				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 374.65 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9e10b81-4c77-45d0-afe0-f75a47b9e234")
+		(property "Reference" "#PWR055"
+			(at 374.65 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 374.65 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 374.65 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d059d04-bb2c-49d3-8997-4adc7873ca10")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 92.71 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdaefa02-e623-4a5a-951b-171a9a9bf197")
+		(property "Reference" "#PWR044"
+			(at 96.52 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 88.9 167.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 92.71 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bb74291-dad9-48a8-b479-fbb758445eff")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff40e68f-d850-4342-bc4f-8f4927e5b2bd")
+		(property "Reference" "#PWR057"
+			(at 90.17 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.1701 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79d00564-d36d-43b6-84b1-c372d0861138")
+		)
+		(instances
+			(project "Bluesat gs remote controller"
+				(path "/36e07d47-8f23-4d19-870b-29efa343c1de"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
